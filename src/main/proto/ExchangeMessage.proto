@@ -1,0 +1,9 @@
+package exchange_message_def;
+
+option java_package = "kafka.message";
+option java_outer_classname = "ExchangeMessage";
+option optimize_for = SPEED;
+
+message Order {
+  optional string oid = 1;
+}
